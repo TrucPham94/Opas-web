@@ -49,37 +49,45 @@ a {
 
 .nav-item {
   padding: 10px 20px;
-  font-size: 1.8rem;
 }
 
 .nav-item:hover {
-  background: #ccc;
+  background: #ddd;
+}
+.main-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .container__heading {
-  font-weight: 400;
-  font-size: 40px;
+  font-weight: 700;
   text-align: center;
-  letter-spacing: -0.02em;
-  color: #10378c;
-}
-
-.main-menu,
-.content-list {
-  display: flex;
-  flex-direction: column;
-  line-height: 1.8;
+  font-size: 4rem;
+  color: #aaa;
+  padding: 10px 0;
 }
 
 .content-list__heading {
-  font-weight: 700;
+  font-weight: 600;
+  padding: 20px 0;
+  font-size: 1.8rem;
+}
+
+.content-list-sub {
+  display: flex;
+  flex-direction: column;
 }
 
 .heading__item-lv1 {
-  padding-left: 40px;
-  font-weight: 400;
+  font-weight: 600;
+  margin: 15px 0;
 }
 
-.content-list__heading__item:hover {
-  background: #ccc;
+.sub-list-content {
+  padding: 10px 10px;
+}
+
+.sub-list-content:hover {
+  background: #ddd;
 }

@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Reset CSS -->
     <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/code.css" />
     <!-- Style CSS -->
     <link rel="stylesheet" href="./assets/css/style.css" />
 
@@ -16,225 +17,181 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&family=Roboto+Mono:wght@300&display=swap"
       rel="stylesheet"
     />
+
     <title>Home</title>
   </head>
   <body>
-    <nav>
-        <ul class="navbar">
-            <a href="#"><li class="nav-item">Home</li></a>
-            <a href="#!"><li class="nav-item">Javascript</li></a>
-            <a href="#!"><li class="nav-item">HTML</li></a>
-            <a href="#!"><li class="nav-item">CSS</li></a>
-            <a href="#!"><li class="nav-item">ReactJS</li></a>
-        </ul>
-    </nav>
     <div class="container">
-        <h1 class="header">My knowledge</h1>
-        <hr>
-    </div>
-    <main>
-        <div class="container">
-            <h2 class="container__heading">Main content</h2>
-            <div class="main-menu">
-                <div class="content-list">
-                    <h3 class="content-list__heading">JavaScript</h3>
-                    <!-- 1st list -->
-                    <div class="content-list-sub">
-                        <a href="#!" class="heading__item-lv1">Strings</a>
-                        <a href="#!" class="sub-list-content">Create a String</a>
-                        <a href="#!" class="sub-list-content">Templates String</a>
-                        <a href="#!" class="sub-list-content">Length of String</a>
-                        <a href="#!" class="sub-list-content">Find index</a>
-                        <a href="#!" class="sub-list-content">Cut String</a>
-                        <a href="#!" class="sub-list-content">Replace String</a>
-                        <a href="#!" class="sub-list-content">Cover to UPPER/lower a String</a>
-                        <a href="#!" class="sub-list-content">Trim</a>
-                        <a href="#!" class="sub-list-content">Split</a>
-                        <a href="#!" class="sub-list-content">Trim</a>
-                    </div>
-
-                    <!-- 1st list -->
-                    <div class="content-list-sub">
-                        <a href="#!" class="heading__item-lv1">Numbers</a>
-                        <a href="#!" class="sub-list-content">toString</a>
-                        <a href="#!" class="sub-list-content">toFixed</a>
-                        <a href="#!" class="sub-list-content">parseInt</a>
-                        <a href="#!" class="sub-list-content">isNaN</a>                       
-                    </div>
-
-                    <div class="content-list-sub">
-                        <a href="#!" class="heading__item-lv1">Date</a>
-                        <a href="#!" class="sub-list-content">Date sub-list</a>
-                        <a href="#!" class="sub-list-content">Date sub-list</a>
-                        <a href="#!" class="sub-list-content">Date sub-list</a>
-                        <a href="#!" class="sub-list-content">Date sub-list</a>                       
-                    </div>
-
-                    <div class="content-list-sub">
-                        <a href="#!" class="heading__item-lv1">Arrays</a>
-                        <a href="#!" class="sub-list-content">Arrays sub-list</a>
-                        <a href="#!" class="sub-list-content">Arrays sub-list</a>
-                        <a href="#!" class="sub-list-content">Arrays sub-list</a>
-                        <a href="#!" class="sub-list-content">Arrays sub-list</a>                       
-                    </div>
-                    <div class="content-list-sub">
-                        <a href="#!" class="heading__item-lv1">Function</a>
-                        <a href="#!" class="sub-list-content">Function sub-list</a>
-                        <a href="#!" class="sub-list-content">Function sub-list</a>
-                        <a href="#!" class="sub-list-content">Function sub-list</a>
-                        <a href="#!" class="sub-list-content">Function sub-list</a>                       
-                    </div>
-                    <div class="content-list-sub">
-                        <a href="#!" class="heading__item-lv1">Object</a>
-                        <a href="#!" class="sub-list-content">Object sub-list</a>
-                        <a href="#!" class="sub-list-content">Object sub-list</a>
-                        <a href="#!" class="sub-list-content">Object sub-list</a>
-                        <a href="#!" class="sub-list-content">Object sub-list</a>                       
-                    </div>
-                    <div class="content-list-sub">
-                        <a href="#!" class="heading__item-lv1">Loop</a>
-                        <a href="#!" class="sub-list-content">Loop sub-list</a>
-                        <a href="#!" class="sub-list-content">Loop sub-list</a>
-                        <a href="#!" class="sub-list-content">Loop sub-list</a>
-                        <a href="#!" class="sub-list-content">Loop sub-list</a>                       
-                    </div>
-
-                </div>
-
-                <div class="content-list">
-                    <h3 class="content-list__heading">PHP</h3>
-                    <!-- 1st list -->
-                    <div class="content-list-sub">
-                        <a href="#!" class="heading__item-lv1">Strings</a>
-                        <a href="#!" class="sub-list-content">Create a String</a>
-                        <a href="#!" class="sub-list-content">Templates String</a>
-                        <a href="#!" class="sub-list-content">Length of String</a>
-                        <a href="#!" class="sub-list-content">Find index</a>
-                        <a href="#!" class="sub-list-content">Cut String</a>
-                        <a href="#!" class="sub-list-content">Replace String</a>
-                        <a href="#!" class="sub-list-content">Cover to UPPER/lower a String</a>
-                        <a href="#!" class="sub-list-content">Trim</a>
-                        <a href="#!" class="sub-list-content">Split</a>
-                        <a href="#!" class="sub-list-content">Trim</a>
-                    </div>
-
-                    <!-- 1st list -->
-                    <div class="content-list-sub">
-                        <a href="#!" class="heading__item-lv1">Numbers</a>
-                        <a href="#!" class="sub-list-content">toString</a>
-                        <a href="#!" class="sub-list-content">toFixed</a>
-                        <a href="#!" class="sub-list-content">parseInt</a>
-                        <a href="#!" class="sub-list-content">isNaN</a>                       
-                    </div>
-
-                    <div class="content-list-sub">
-                        <a href="#!" class="heading__item-lv1">Date</a>
-                        <a href="#!" class="sub-list-content">Date sub-list</a>
-                        <a href="#!" class="sub-list-content">Date sub-list</a>
-                        <a href="#!" class="sub-list-content">Date sub-list</a>
-                        <a href="#!" class="sub-list-content">Date sub-list</a>                       
-                    </div>
-
-                    <div class="content-list-sub">
-                        <a href="#!" class="heading__item-lv1">Arrays</a>
-                        <a href="#!" class="sub-list-content">Arrays sub-list</a>
-                        <a href="#!" class="sub-list-content">Arrays sub-list</a>
-                        <a href="#!" class="sub-list-content">Arrays sub-list</a>
-                        <a href="#!" class="sub-list-content">Arrays sub-list</a>                       
-                    </div>
-                    <div class="content-list-sub">
-                        <a href="#!" class="heading__item-lv1">Function</a>
-                        <a href="#!" class="sub-list-content">Function sub-list</a>
-                        <a href="#!" class="sub-list-content">Function sub-list</a>
-                        <a href="#!" class="sub-list-content">Function sub-list</a>
-                        <a href="#!" class="sub-list-content">Function sub-list</a>                       
-                    </div>
-                    <div class="content-list-sub">
-                        <a href="#!" class="heading__item-lv1">Object</a>
-                        <a href="#!" class="sub-list-content">Object sub-list</a>
-                        <a href="#!" class="sub-list-content">Object sub-list</a>
-                        <a href="#!" class="sub-list-content">Object sub-list</a>
-                        <a href="#!" class="sub-list-content">Object sub-list</a>                       
-                    </div>
-                    <div class="content-list-sub">
-                        <a href="#!" class="heading__item-lv1">Loop</a>
-                        <a href="#!" class="sub-list-content">Loop sub-list</a>
-                        <a href="#!" class="sub-list-content">Loop sub-list</a>
-                        <a href="#!" class="sub-list-content">Loop sub-list</a>
-                        <a href="#!" class="sub-list-content">Loop sub-list</a>                       
-                    </div>
-
-                </div>
-
-                <div class="content-list">
-                    <h3 class="content-list__heading">Python</h3>
-                    <!-- 1st list -->
-                    <div class="content-list-sub">
-                        <a href="#!" class="heading__item-lv1">Strings</a>
-                        <a href="#!" class="sub-list-content">Create a String</a>
-                        <a href="#!" class="sub-list-content">Templates String</a>
-                        <a href="#!" class="sub-list-content">Length of String</a>
-                        <a href="#!" class="sub-list-content">Find index</a>
-                        <a href="#!" class="sub-list-content">Cut String</a>
-                        <a href="#!" class="sub-list-content">Replace String</a>
-                        <a href="#!" class="sub-list-content">Cover to UPPER/lower a String</a>
-                        <a href="#!" class="sub-list-content">Trim</a>
-                        <a href="#!" class="sub-list-content">Split</a>
-                        <a href="#!" class="sub-list-content">Trim</a>
-                    </div>
-
-                    <!-- 1st list -->
-                    <div class="content-list-sub">
-                        <a href="#!" class="heading__item-lv1">Numbers</a>
-                        <a href="#!" class="sub-list-content">toString</a>
-                        <a href="#!" class="sub-list-content">toFixed</a>
-                        <a href="#!" class="sub-list-content">parseInt</a>
-                        <a href="#!" class="sub-list-content">isNaN</a>                       
-                    </div>
-
-                    <div class="content-list-sub">
-                        <a href="#!" class="heading__item-lv1">Date</a>
-                        <a href="#!" class="sub-list-content">Date sub-list</a>
-                        <a href="#!" class="sub-list-content">Date sub-list</a>
-                        <a href="#!" class="sub-list-content">Date sub-list</a>
-                        <a href="#!" class="sub-list-content">Date sub-list</a>                       
-                    </div>
-
-                    <div class="content-list-sub">
-                        <a href="#!" class="heading__item-lv1">Arrays</a>
-                        <a href="#!" class="sub-list-content">Arrays sub-list</a>
-                        <a href="#!" class="sub-list-content">Arrays sub-list</a>
-                        <a href="#!" class="sub-list-content">Arrays sub-list</a>
-                        <a href="#!" class="sub-list-content">Arrays sub-list</a>                       
-                    </div>
-                    <div class="content-list-sub">
-                        <a href="#!" class="heading__item-lv1">Function</a>
-                        <a href="#!" class="sub-list-content">Function sub-list</a>
-                        <a href="#!" class="sub-list-content">Function sub-list</a>
-                        <a href="#!" class="sub-list-content">Function sub-list</a>
-                        <a href="#!" class="sub-list-content">Function sub-list</a>                       
-                    </div>
-                    <div class="content-list-sub">
-                        <a href="#!" class="heading__item-lv1">Object</a>
-                        <a href="#!" class="sub-list-content">Object sub-list</a>
-                        <a href="#!" class="sub-list-content">Object sub-list</a>
-                        <a href="#!" class="sub-list-content">Object sub-list</a>
-                        <a href="#!" class="sub-list-content">Object sub-list</a>                       
-                    </div>
-                    <div class="content-list-sub">
-                        <a href="#!" class="heading__item-lv1">Loop</a>
-                        <a href="#!" class="sub-list-content">Loop sub-list</a>
-                        <a href="#!" class="sub-list-content">Loop sub-list</a>
-                        <a href="#!" class="sub-list-content">Loop sub-list</a>
-                        <a href="#!" class="sub-list-content">Loop sub-list</a>                       
-                    </div>
-
-                </div>
-
-                
+      <nav>
+        <ul class="navbar">
+          <a href="#"><li class="nav-item">Home</li></a>
+          <a href="#!"><li class="nav-item">Javascript</li></a>
+          <a href="#!"><li class="nav-item">About Me</li></a>
+        </ul>
+      </nav>
+      <hr />
+      <h1 class="main-header">Javascript</h1>
+      <div class="main-content">
+        <div class="left-content">
+          <!-- content item -->
+          <div class="content-item">
+            <p class="title">Object</p>
+            <div class="sub-title">
+              <a href="#createObj" class="sub-title__name">Create a object</a>
+              <a href="#properties-Obj" class="sub-title__name">Properties</a>
+              <a href="#Add_Obj" class="sub-title__name"
+                >Adding New Properties</a
+              >
+              <a href="#delete-Obj" class="sub-title__name"
+                >Deleting Properties</a
+              >
+              <a href="#Nes-Obj" class="sub-title__name">Nested Objects</a>
             </div>
+          </div>
         </div>
-    </main>
+
+        <!-- ===================right=================== -->
+        <div class="right-content">
+          <div class="right-content__desc">
+            <!-- Object -->
+            <div class="each-content">
+              <!-- Create an Obj -->
+              <h2 class="right-content__title" id="createObj">
+                Creating a JavaScript Object
+              </h2>
+              <p class="content-desc">There're 3 ways to create an obj</p>
+              <p class="content-desc">Using an Object Literal</p>
+              <pre><code class="language-css">
+                  const person = {firstName:"John", lastName:"Doe", age:50, eyeColor:"blue"};
+            </code></pre>
+              <p class="content-desc">Using the JavaScript Keyword new</p>
+              <pre><code class="language-css">
+                const person = new Object();
+                person.firstName = "John";
+                person.lastName = "Doe";
+                person.age = 50;
+                person.eyeColor = "blue";
+            </code></pre>
+              <p class="content-desc">JavaScript Objects are Mutable</p>
+              <pre>
+                <code class="language-css">const person = {
+                    firstName:"John",
+                    lastName:"Doe",
+                    age:50, eyeColor:"blue"
+                  }
+                  
+                  const x = person;
+                  x.age = 10;      // Will change both x.age and person.age</code>
+            </pre>
+            </div>
+            <!-- Properties -->
+            <div class="each-content">
+              <h2 class="right-content__title" id="properties-Obj">
+                JavaScript Object Properties
+              </h2>
+              <p class="content-desc">
+                Accessing JavaScript Properties
+                <br />There's are 3 ways to access a elements in JS. <br />
+                The syntax for accessing the property of an object is:
+              </p>
+              <pre>
+                <code class="language-css">objectName.property // person.age
+                objectName["property"]   // person["age"]
+                objectName[expression]   // x = "age"; person[x]
+                </code>
+              </pre>
+              <p class="content-desc">Example:</p>
+              <pre class="code language-css">
+person.firstname + " is " + person.age + " years old.";</pre
+              >
+              <p class="content-desc">or:</p>
+              <pre class="code language-css">
+person["firstname"] + " is " + person["age"] + " years old.";</pre
+              >
+            </div>
+            <!-- Adding New Properties -->
+            <div class="each-content">
+              <h2 class="right-content__title" id="Add_Obj">
+                Adding New Properties
+              </h2>
+              <p class="content-desc">
+                You can add new properties to an existing object by simply
+                giving it a value.
+                <br />Assume that the person object already exists - you can
+                then give it new properties: <br />Example:
+              </p>
+              <pre>
+                <code class="language-css">person.nationality = "English";</code>
+              </pre>
+            </div>
+
+            <!-- Deleting Properties -->
+            <div class="each-content">
+              <h2 class="right-content__title" id="delete-Obj">
+                Deleting Properties
+              </h2>
+              <p class="content-desc">
+                The delete keyword deletes a property from an object:
+              </p>
+              <pre>
+                  <code class="language-css">const person = {
+                    firstName: "John",
+                    lastName: "Doe",
+                    age: 50,
+                    eyeColor: "blue"
+                  };
+                  
+                  delete person.age;</code>
+                </pre>
+            </div>
+
+            <!-- Nested Objects -->
+            <div class="each-content">
+              <h2 class="right-content__title" id="Nes-Obj">Nested Objects</h2>
+              <p class="content-desc">
+                Values in an object can be another object:
+              </p>
+              <pre>
+                    <code class="language-css">myObj = {
+                        name:"John",
+                        age:30,
+                        cars: {
+                          car1:"Ford",
+                          car2:"BMW",
+                          car3:"Fiat"
+                        }
+                      }</code>
+                  </pre>
+              <p class="content-desc">
+                You can access nested objects using the dot notation or the
+                bracket notation:
+              </p>
+              <pre>
+                <code class="language-css">myObj.cars.car2;
+                myObj.cars["car2"];
+                myObj["cars"]["car2"];
+                </code>
+              </pre>
+            </div>
+
+            <!-- New form -->
+            <div class="each-content">
+              <h2 class="right-content__title"></h2>
+              <p class="content-desc"></p>
+              <pre>
+                      <code class="language-css"></code>
+                    </pre>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
+    <!-- PrimJS Embbed -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/prism/9000.0.1/prism.min.js"
+      integrity="sha512-UOoJElONeUNzQbbKQbjldDf9MwOHqxNz49NNJJ1d90yp+X9edsHyJoAs6O4K19CZGaIdjI5ohK+O2y5lBTW6uQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
   </body>
 </html>

@@ -20,6 +20,10 @@
   padding: 10px 15px;
 }
 
+.navbar-item:hover {
+  background: #ccc;
+}
+
 /* picture */
 .slogan-img {
   margin-top: 20px;

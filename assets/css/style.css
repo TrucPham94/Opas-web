@@ -22,6 +22,7 @@
 
 .navbar-item:hover {
   background: #ccc;
+  background: #ccc;
 }
 
 /* picture */
@@ -31,6 +32,18 @@
   background: #ccc;
 }
 
+.marquee-text {
+  color: #10375c;
+  padding: 10px 0;
+}
+
+.carousel-item {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  position: relative;
+  top: -150px;
+}
 /* About US */
 .aboutUs__heading,
 .applyNews__heading,
@@ -67,22 +80,41 @@
   font-weight: 300;
   font-size: 1.6rem;
   line-height: 1.8;
+  text-align: justify;
   /* color: #575f66; */
 }
 
 /* footer */
 .footer__map {
-  margin-top: 50px;
+  margin-top: 30px;
 }
 
 .footer__inner {
   margin-top: 50px;
-  height: 300px;
   display: flex;
-  gap: 30px;
+  gap: 39px;
+  background: #000;
+  color: #fff;
+  padding: 10px 0;
 }
 
 .footer-block {
   width: 100%;
-  background: #ccc;
+  padding: 0 20px;
+}
+
+.footer__logo {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.footer-block1__desc,
+.footer-block2__desc {
+  text-align: justify;
+  line-height: 1.8;
+}
+
+.footer__block2__heading {
+  text-align: center;
+  font-size: 2rem;
 }

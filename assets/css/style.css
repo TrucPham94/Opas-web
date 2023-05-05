@@ -18,11 +18,29 @@
 
 .navbar-item {
   padding: 10px 15px;
+  position: relative;
 }
 
-.navbar-item:hover {
+.navbar-item:hover .sub-navbar {
+  display: flex;
+}
+
+.sub-navbar {
+  position: absolute;
+  display: none;
+}
+
+.sub-navbar__item {
+  margin-top: 10px;
+  padding: 10px 15px;
+  border-left: 1px solid #10375c;
+  border-right: 1px solid #10375c;
+}
+
+.sub-navbar__item:hover {
   background: #ccc;
-  background: #ccc;
+  cursor: pointer;
+  color: #10375c;
 }
 
 /* picture */
@@ -35,6 +53,7 @@
 .marquee-text {
   color: #10375c;
   padding: 10px 0;
+  margin-top: 20px;
 }
 
 .carousel-item {

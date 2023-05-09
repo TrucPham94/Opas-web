@@ -65,6 +65,7 @@
 }
 /* About US */
 .aboutUs__heading,
+.aboutUs__heading,
 .applyNews__heading,
 .contact__heading {
   position: relative;
@@ -76,7 +77,6 @@
   letter-spacing: -0.02em;
   color: #10375c;
 }
-
 .aboutUs__heading::after,
 .applyNews__heading::after,
 .contact__heading::after {
@@ -91,7 +91,7 @@
   bottom: -7px;
   margin: 0 auto;
 }
-
+.aboutUs__desc,
 .aboutUs__desc,
 .applyNews__desc,
 .contact__desc {

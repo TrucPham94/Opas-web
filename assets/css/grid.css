@@ -1,0 +1,13 @@
+.logo-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); /* 5 cột có cùng kích thước */
+  justify-items: center; /* Canh giữa theo chiều ngang */
+  align-items: center; /* Canh giữa theo chiều dọc */
+  gap: 10px; /* Khoảng cách giữa các logo */
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

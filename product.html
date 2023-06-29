@@ -8,8 +8,11 @@
     <link rel="stylesheet" href="./assets/css/reset.css" />
     <!-- Common CSS -->
     <link rel="stylesheet" href="./assets/css/common.css" />
+    <link rel="stylesheet" href="./assets/css/product.css" />
     <!-- Style CSS -->
     <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/grid.css" />
+    <link rel="stylesheet" href="./assets/css/product.css" />
     <!-- Font embed -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -19,8 +22,7 @@
     />
     <title>Sản phẩm</title>
   </head>
-  <body style="height: 2000px">
-    <!-- Navbar -->
+  <body>
     <nav>
       <div class="container">
         <div class="navbar__inner">
@@ -38,10 +40,12 @@
                 >Về chúng tôi</a
               >
             </li>
-            <li class="navbar-item">
-              <a href="product.html" class="navbar-item__link">Sản phẩm</a>
-            </li>
 
+            <li class="navbar-item">
+              <a href="product.html" class="navbar-item__link">
+                Sản phẩm Phân Phối
+              </a>
+            </li>
             <li class="navbar-item">
               <a href="./notification.html" class="navbar-item__link"
                 >Thông báo</a
@@ -59,51 +63,255 @@
         </div>
       </div>
     </nav>
-
-    <!-- ====================footer==================== -->
-    <footer class="footer">
+    <main>
       <div class="container">
-        <!-- map embed -->
-        <div class="footer__map">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3928.467359232998!2d105.7619264746865!3d10.060737990047818!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31a087e4002d4c1b%3A0x7809ed677c8e4368!2zOGEgxJAuIEPDoWNoIE3huqFuZyBUaMOhbmcgOCwgUCwgQsOsbmggVGjhu6d5LCBD4bqnbiBUaMahLCBWaWV0bmFt!5e0!3m2!1sen!2s!4v1683128895611!5m2!1sen!2s"
-            width="100%"
-            height="450"
-            style="border: 0"
-            allowfullscreen=""
-            loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
-          ></iframe>
-        </div>
-        <div class="footer__inner">
-          <!-- block 1 -->
-          <div class="footer__block-1 footer-block">
-            <img src="./assets/img/Logo.png" alt="Logo" class="footer__logo" />
-            <p class="footer-block1__desc">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore
-              sit et eaque earum maiores aliquid nostrum suscipit debitis
-              laborum minima!
-            </p>
-            <p class="footer-block1__desc">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore
-              sit et eaque earum maiores aliquid nostrum suscipit debitis
-              laborum minima!
-            </p>
+        <!-- Nganh hang Unilever -->
+        <p class="product_desc">Các sản phẩm ngành hàng Unilever</p>
+        <p class="part">
+          Unilever là một công ty đa quốc gia hàng đầu thế giới chuyên về mặt
+          hàng tiêu dùng nhanh (FMCG: Fast Moving Consumer Good). Công ty này có
+          trụ sở được đặt tại hai thành phố là London của Anh và Rotterdam của
+          Hà Lan.
+        </p>
+        <div class="logo-grid">
+          <div class="logo">
+            <img
+              src="./assets/img/LOGO PRODUCT/OMO_logo_logotipo.png"
+              alt="Logo Omo"
+            />
           </div>
-          <!-- block 2 -->
-          <div class="footer__block-2 footer-block">
-            <h3 class="footer__block2__heading">Liên hệ</h3>
-            <hr />
-            <p class="footer-block2__desc">
-              Địa chỉ:
-              <br />
-              Số 8A, đường Cách Mạng Tháng 8, Phường An Thới, Quận Bình Thủy,
-              TP. Cần Thơ.
-              <br />
-              Số điện Thoại: +08 12345678
-              <br />
-              Email: myemail@opas.vn
-            </p>
+          <div class="logo">
+            <img src="./assets/img/LOGO PRODUCT/SUFT.png" alt="Logo Surf" />
+          </div>
+          <div class="logo">
+            <img
+              src="./assets/img/LOGO PRODUCT/Comfort Logo.jpg"
+              alt="Logo comfort"
+            />
+          </div>
+          <div class="logo">
+            <img
+              src="./assets/img/LOGO PRODUCT/SUNLIGHT.jpeg"
+              alt="Logo Sunlight"
+            />
+          </div>
+          <div class="logo">
+            <img src="./assets/img/LOGO PRODUCT/Vim Logo.jpg" alt="Logo Vim" />
+          </div>
+          <div class="logo">
+            <img src="./assets/img/LOGO PRODUCT/AXE.png" alt="Logo Axe" />
+          </div>
+          <div class="logo">
+            <img src="./assets/img/LOGO PRODUCT/CLEAR.jpg" alt="Logo Clear" />
+          </div>
+          <div class="logo">
+            <img
+              src="./assets/img/LOGO PRODUCT/CLOSEUP.webp"
+              alt="Logo CloseUp"
+            />
+          </div>
+          <div class="logo">
+            <img src="./assets/img/LOGO PRODUCT/dove.png" alt="Logo Dove" />
+          </div>
+          <div class="logo">
+            <img
+              src="./assets/img/LOGO PRODUCT/HAZELINE.png"
+              alt="Logo Hazeline"
+            />
+          </div>
+          <div class="logo">
+            <img src="./assets/img/LOGO PRODUCT/KNORR.webp" alt="Logo Knorr" />
+          </div>
+          <div class="logo">
+            <img
+              src="./assets/img/LOGO PRODUCT/Lifebuoy-logo.png"
+              alt="Logo Lifebuoy-logo"
+            />
+          </div>
+          <div class="logo">
+            <img src="./assets/img/LOGO PRODUCT/LUX.png" alt="Logo Vim" />
+          </div>
+          <div class="logo">
+            <img src="./assets/img/LOGO PRODUCT/POND.png" alt="Logo Pond" />
+          </div>
+          <div class="logo">
+            <img src="./assets/img/LOGO PRODUCT/PS.png" alt="Logo PS" />
+          </div>
+          <div class="logo">
+            <img src="./assets/img/LOGO PRODUCT/REXONA.png" alt="Logo Rexona" />
+          </div>
+          <div class="logo">
+            <img
+              src="./assets/img/LOGO PRODUCT/Sunsilk.jpg"
+              alt="Logo Sunsilk"
+            />
+          </div>
+          <div class="logo">
+            <img
+              src="./assets/img/LOGO PRODUCT/TRESEME.png"
+              alt="Logo TRESEME"
+            />
+          </div>
+          <div class="logo">
+            <img
+              src="./assets/img/LOGO PRODUCT/VASELINE.png"
+              alt="Logo VASELINE"
+            />
+          </div>
+        </div>
+
+        <!-- Nganh hang Wilmar -->
+        <p class="product_desc">Các sản phẩm ngành hàng Wilmar</p>
+        <p class="part">
+          Wilmar International là tập đoàn kinh doanh nông sản hàng đầu châu Á,
+          hoạt động trong ngành khai thác dầu cọ, tinh luyện dầu ăn, sản xuất và
+          bán dầu chai tiêu dùng, sản phẩm hóa dầu và sản xuất dầu diesel sinh
+          học, cũng như tinh chế và mua bán ngũ cốc. Tập đoàn có trụ sở chính
+          đặt tại Singapore và các trụ sở khác tại hơn 50 quốc gia trên thế
+          giới, trong đó các hoạt động chủ yếu diễn ra tại Indonesia, Malaysia,
+          Trung Quốc, Ấn Độ và châu Âu. Được thành lập từ năm 1991, Wilmar
+          International được xếp trong danh sách những doanh nghiệp có vốn hóa
+          thị trường lớn nhất tại Sở chứng khoán Singapore. Mục tiêu chính trong
+          chiến lược phát triển của tập đoàn là hướng tới việc xây dựng và phát
+          triển mô hình kinh doanh khép kín, với đa dạng các mặt hàng nông
+          nghiệp.
+        </p>
+        <div class="logo-grid">
+          <div class="logo">
+            <img
+              src="./assets/img/LOGO PRODUCT/Wilmar Logo/Simply-logo.png"
+              alt="Logo Omo"
+            />
+          </div>
+          <div class="logo">
+            <img
+              src="./assets/img/LOGO PRODUCT/Wilmar Logo/Meizan.webp"
+              alt="Logo Surf"
+            />
+          </div>
+          <div class="logo">
+            <img
+              src="./assets/img/LOGO PRODUCT/Wilmar Logo/Dau-an-Olivoila-Logo-PNG-1.png"
+              alt="Logo comfort"
+            />
+          </div>
+          <div class="logo">
+            <img
+              src="./assets/img/LOGO PRODUCT/Wilmar Logo/cai lan.jpg"
+              alt="Logo Sunlight"
+            />
+          </div>
+          <div class="logo">
+            <img
+              src="./assets/img/LOGO PRODUCT/Wilmar Logo/664-6642838_meadow-fresh-a-key-brand-of-goodman-fielder.png"
+              alt="Logo Vim"
+            />
+          </div>
+          <div class="logo">
+            <img
+              src="./assets/img/LOGO PRODUCT/Wilmar Logo/Nam Duong.jpg"
+              alt="Logo Axe"
+            />
+          </div>
+          <div class="logo">
+            <img
+              src="./assets/img/LOGO PRODUCT/Wilmar Logo/ohW7MHBZvSiPfqNDJfv5.jpg"
+              alt="Logo Clear"
+            />
+          </div>
+          <div class="logo">
+            <img
+              src="./assets/img/LOGO PRODUCT/Wilmar Logo/power100.jpg"
+              alt="Logo CloseUp"
+            />
+          </div>
+          <div class="logo">
+            <img
+              src="./assets/img/LOGO PRODUCT/Wilmar Logo/Vinh Phat.jpg"
+              alt="Logo Dove"
+            />
+          </div>
+        </div>
+
+        <!-- Nganh hang Uniben -->
+        <p class="product_desc">Các sản phẩm ngành hàng Uniben</p>
+        <p class="part">
+          Thành lập vào ngày 1/6/1992, trải qua 30 năm phát triển. UNIBEN không
+          ngừng lớn mạnh và trở thành công ty thực phẩm hàng đầu Việt Nam chuyên
+          cung cấp các sản phẩm ăn liền thơm ngon, chất lượng từ các thương hiệu
+          nổi bật như Mì 3 Miền, Nước Chấm 3 Miền, Mì REEVA, Trà Mật Ong BONCHA,
+          Nước Trái Cây JOCO, Nước Tăng Lực ABBEN. UNIBEN hiện sở hữu 3 nhà máy
+          lớn và hiện đại bậc nhất khu vực.
+        </p>
+        <div class="logo-grid">
+          <div class="logo">
+            <img
+              src="./assets/img/LOGO PRODUCT/Logo 3 mien/3mien_1000x604.png"
+              alt="Logo Omo"
+            />
+          </div>
+          <div class="logo">
+            <img
+              src="./assets/img/LOGO PRODUCT/Logo 3 mien/boncha_1000x604.png"
+              alt="Logo Omo"
+            />
+          </div>
+          <div class="logo">
+            <img
+              src="./assets/img/LOGO PRODUCT/Logo 3 mien/abben_1000x604.png"
+              alt="Logo Omo"
+            />
+          </div>
+          <div class="logo">
+            <img
+              src="./assets/img/LOGO PRODUCT/Logo 3 mien/joco_1000x604.png"
+              alt="Logo Omo"
+            />
+          </div>
+          <div class="logo">
+            <img
+              src="./assets/img/LOGO PRODUCT/Logo 3 mien/reeva_1000x604.png"
+              alt="Logo Omo"
+            />
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="footer">
+        <div class="container">
+          <!-- Map -->
+          <div class="map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3928.467359233007!2d105.7619264746865!3d10.060737990047818!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31a087e4002d4c1b%3A0x7809ed677c8e4368!2zOGEgxJAuIEPDoWNoIE3huqFuZyBUaMOhbmcgOCwgUCwgQsOsbmggVGjhu6d5LCBD4bqnbiBUaMahLCBWaWV0bmFt!5e0!3m2!1sen!2s!4v1683903290582!5m2!1sen!2s"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              width="100%"
+              height="300px"
+            ></iframe>
+          </div>
+          <!-- Footer -->
+          <div class="container">
+            <div class="footer__inner">
+              <div class="left-footer">
+                <p class="footer_desc">
+                  CÔNG TY CỔ PHẦN THƯƠNG MẠI DỊCH VỤ OPAS
+                </p>
+                <p>Mã số thuế: 1801113092</p>
+                <p>
+                  Địa chỉ: <br />
+                  Số 8A, đường Cách Mạng Tháng Tám, phường An Thới, quận Bình
+                  Thủy, thành phố Cần Thơ
+                </p>
+              </div>
+              <div class="right-footer">
+                <div class="logo">
+                  <img src="./assets/img/Logo.png" alt="" />
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>

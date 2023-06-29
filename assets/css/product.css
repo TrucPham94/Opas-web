@@ -1,0 +1,22 @@
+.branch__logo {
+  height: 200px;
+  margin: 0 auto;
+}
+
+.product_desc {
+  color: blue;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 3rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.part {
+  width: 80%;
+  line-height: 1.8;
+  text-align: justify;
+  text-indent: 40px;
+  width: calc(100% - 48px);
+  font-size: 1.6rem;
+}

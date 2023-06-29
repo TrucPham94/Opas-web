@@ -1,0 +1,22 @@
+.aboutUs_article__heading {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 3rem;
+}
+
+.content {
+  width: 80%;
+  line-height: 1.8;
+  text-align: justify;
+  text-indent: 40px;
+  width: calc(100% - 48px);
+  font-size: 1.6rem;
+}
+
+.aboutUs_img {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 90%;
+}

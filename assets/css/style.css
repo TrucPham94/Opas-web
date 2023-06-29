@@ -21,28 +21,6 @@
   position: relative;
 }
 
-.navbar-item:hover .sub-navbar {
-  display: flex;
-}
-
-.sub-navbar {
-  position: absolute;
-  display: none;
-}
-
-.sub-navbar__item {
-  margin-top: 10px;
-  padding: 10px 15px;
-  border-left: 1px solid #10375c;
-  border-right: 1px solid #10375c;
-}
-
-.sub-navbar__item:hover {
-  background: #ccc;
-  cursor: pointer;
-  color: #10375c;
-}
-
 /* picture */
 .slogan-img {
   margin-top: 20px;
@@ -157,13 +135,16 @@
 }
 
 .footer__inner {
-  min-height: 300px;
   margin-top: 10px;
+  margin-bottom: 20px;
   display: flex;
   justify-content: space-between;
-  gap: 30px;
 }
 
-.left-footer {
-  margin-top: 20px;
+.footer_desc {
+  font-weight: 700;
+}
+
+.right-footer {
+  margin: auto;
 }

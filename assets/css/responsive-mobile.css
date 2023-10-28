@@ -1,11 +1,40 @@
-@media (max-width: 739px) {
-  .navbar,
-  .picture,
-  .marquee-text {
+/* Samrtphone < 740px */
+@media only screen and (max-width: 46.1875em) {
+  .navbar {
     display: none;
   }
-  .aboutUs__desc {
-    line-height: 1.4;
-    text-align: left;
+  .carousel-inner {
+    height: 300px;
+  }
+  .carousel-item img {
+    margin-top: 200px;
+    width: 100px;
+  }
+
+  .info-part {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .mobile-responsive {
+    display: block;
+  }
+
+  .last_nav,
+  .right-footer {
+    display: none;
+  }
+}
+
+/* Table >= 740px and <1024px  */
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+  body {
+    background-color: orange;
+  }
+}
+
+/* PC >1024px  */
+@media only screen and (max-width: 64em) {
+  body {
+    /* background-color: blue; */
   }
 }

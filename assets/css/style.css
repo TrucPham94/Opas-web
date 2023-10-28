@@ -42,6 +42,16 @@
   top: -150px;
 }
 
+/* Picture for Smartphone */
+.mobile-responsive {
+  display: none;
+}
+
+.mobile-responsive img {
+  width: 100%;
+  object-fit: cover;
+}
+
 .article {
   display: flex;
   flex-direction: column;
